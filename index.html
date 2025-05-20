@@ -18,13 +18,17 @@
       camera-controls
       ar
       ar-modes="webxr scene-viewer quick-look"
+      ar-scale="fixed"
+      interaction-prompt="none"
       ios-src="https://axcy4ryac3ty.compat.objectstorage.ap-hyderabad-1.oraclecloud.com/tjdev/assets/glb-file/Lg8P2xbYOJj5cqs44Ueui_optimized_gcbread.glb"
       background-color="#f0f0f0"
       style="width: 100%; max-width: 600px; height: 400px; margin: auto;"
     ></model-viewer>
-    <button id="external-ar-button" class="ar-button">
-      📱 View in AR
-    </button>
+    <div class="ar-button-container">
+      <button id="external-ar-button" class="ar-button">
+        📱 View in AR
+      </button>
+    </div>
   </div>
 
   <script src="js/viewer.js"></script>

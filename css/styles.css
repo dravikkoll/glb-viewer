@@ -31,17 +31,18 @@
 }
 
 .ar-button {
-    background-color: #4285f4;
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 25px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  display: block !important; /* Force the button to be visible */
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
 }
 
 .ar-button:hover {
-    background-color: #3367d6;
+  background-color: #0056b3;
 }
