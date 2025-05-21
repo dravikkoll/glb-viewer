@@ -15,6 +15,7 @@ modelViewer.addEventListener('load', () => {
     arButton.style.display = 'block'; // Show the button if AR is supported
   } else {
     arButton.style.display = 'none'; // Hide the button if AR is not supported
+    console.warn('AR is not supported on this device or browser.');
   }
 });
 
