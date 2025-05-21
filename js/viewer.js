@@ -20,7 +20,9 @@ modelViewer.addEventListener('load', () => {
 
 arButton.addEventListener('click', async () => {
   try {
+    console.log('Attempting to activate AR...');
     await modelViewer.activateAR(); // Activate AR mode
+    console.log('AR activated successfully');
   } catch (error) {
     console.error('Error activating AR:', error);
     alert('AR mode is not supported on this device or browser.');
